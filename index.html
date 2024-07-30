@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Banco de Dados Simples</h1>
+        <form id="dataForm">
+            <input type="text" id="key" placeholder="Chave" required>
+            <input type="text" id="value" placeholder="Valor" required>
+            <button type="submit">Adicionar/Atualizar</button>
+        </form>
+        <button id="clearStorage">Limpar Armazenamento</button>
+        <div id="dataList">
+            <h2>Dados no LocalStorage</h2>
+            <ul id="list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
