@@ -112,10 +112,10 @@ def pertence_fibonacci(n):
 numero = int(input("Informe um número: "))
 pertence_fibonacci(numero)
 
-
+````
 ### **README para Exercício 3**
 
-```md
+```
 # Exercício 3: Faturamento Diário
 
 <span style="color: pink;">Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:</span>
@@ -183,10 +183,10 @@ print(f"Menor faturamento: R${menor_fat:.2f}")
 print(f"Maior faturamento: R${maior_fat:.2f}")
 print(f"Dias com faturamento acima da média: {dias_acima_da_media}")
 
-
+```
 ### **README para Exercício 4**
 
-```md
+```
 # Exercício 4: Percentual de Representação por Estado
 
 <span style="color: pink;">Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:</span>
@@ -221,10 +221,10 @@ print("Percentuais de representação por estado:")
 for estado, percentual in percentuais.items():
     print(f"{estado}: {percentual:.2f}%")
 
-
+```
 ### **README para Exercício 5**
 
-```md
+```
 # Exercício 5: Inverter String
 
 <span style="color: pink;">Escreva um programa que inverta os caracteres de uma string.</span>
